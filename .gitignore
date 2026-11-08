@@ -1,0 +1,39 @@
+# Binaries and build outputs
+/bin/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/zfspulse
+
+# Test and profiling artifacts
+*.test
+*.out
+*.pprof
+coverage.txt
+coverage.html
+
+# Go workspace
+go.work
+go.work.sum
+
+# Temporary, scratch, and debug artifacts
+*.log
+*.tmp
+*.bak
+trash.md
+trash/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and Editor configs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
